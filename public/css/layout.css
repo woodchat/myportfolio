@@ -280,6 +280,25 @@ ul#nav li.current a { color: #F06000; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+ul.experience {
+   list-style: initial;
+   margin-left: 40px;
+}
+li ul.experienceHeading {
+   font: 15px 'opensans-bold', sans-serif;
+   color: #313131;
+	font-weight: normal;
+   position: relative;
+   display: inline;
+   margin-left: 0px;
+}
+li ul.experienceContent {
+	font: 13px  sans-serif;
+	font-weight: normal;
+   position: relative;
+   display: inline;
+   margin-left: 2px;
+}
 
 /*----------------------------------------------*/
 /*	Skill Bars
@@ -301,6 +320,17 @@ ul#nav li.current a { color: #F06000; }
   	background: #ccc;
   	height: 42px;
   	border-radius: 3px;
+}
+li b.listHeading {
+   font: 15px 'opensans-bold', sans-serif;
+   color: #313131;
+	font-weight: normal;
+   position: relative;
+}
+li em.listContent {
+	font: 15px  sans-serif;
+	font-weight: normal;
+   position: relative;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;

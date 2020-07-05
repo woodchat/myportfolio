@@ -4,7 +4,6 @@ export default  class Resume extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="resume">
-
           <div className="row work">
             <div className="three columns header-col">
                <h1><span>Work</span></h1>
@@ -12,17 +11,26 @@ export default  class Resume extends Component {
 
             <div className="nine columns main-col">
               {
-                resumeData.work && resumeData.work.map((item) => {
+                resumeData.work && resumeData.work.map((item, index) => {
                   return(
-                    <div className="row item">
+                    <div className="row item" >
                        <div className="twelve columns">
                           <h3>{item.CompanyName}</h3>
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
+                          <ul className="experience">
+                            {
+                            item.projects && item.projects.map((iter, index) => {
+                                return(
+                                <li key={index}>
+                                    <ul className="experienceHeading">{iter.heading}</ul>
+                                    <ul className="experienceContent">{iter.description}</ul>
+                                </li>
+                                )
+                            })
+                            }
+   					     </ul>
                        </div>
 
                     </div>
@@ -63,30 +71,21 @@ export default  class Resume extends Component {
 
 
          <div className="row skill">
-
             <div className="three columns header-col">
                <h1><span>Skills</span></h1>
             </div>
-
             <div className="nine columns main-col">
-
-               <p>
-               {resumeData.skillsDescription}
-               </p>
-
-
-
-   				   <ul className="skills">
-                {
-                  resumeData.skills && resumeData.skills.map((item) => {
-                    return(
-                      <li>
-                        <em>{item.skillname}</em>
-                      </li>
-                    )
-                  })
-                }
-
+   			       <ul className="skills">
+                    {
+                    resumeData.skills && resumeData.skills.map((item, index) => {
+                        return(
+                        <li key={index}>
+                            <b className="listHeading">{item.skillname}</b>
+                            <em className="listContent">{item.skillContent}</em>
+                        </li>
+                        )
+                    })
+                    }
    					</ul>
 
 

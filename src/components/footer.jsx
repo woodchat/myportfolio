@@ -8,9 +8,9 @@ export default class Footer extends Component {
         <div className="twelve columns">
           <ul className="social-links">
             {
-              resumeData.socialLinks && resumeData.socialLinks.map((item)=>{
+              resumeData.socialLinks && resumeData.socialLinks.map((item, index)=>{
                 return(
-                  <li>
+                  <li key={index}>
                     <a href={item.url}>
                     <i className={item.className} />
                     </a>
@@ -20,8 +20,7 @@ export default class Footer extends Component {
             }
           </ul>
           <ul className="copyright">
-            <li>© Copyright 2014 CeeVee</li>
-            <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+            <li>Design credits <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
           </ul>
         </div>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
