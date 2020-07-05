@@ -28,7 +28,7 @@ let resumeData = {
         "CompanyName":"Arcesium",
         "specialization":"Senior Software Engineer",
         "MonthOfLeaving":"April 2020 - Current",
-        "Achievements":"Some Achievements"
+        "Projects":[]
       },
       {
         "CompanyName":"Optum | UHG",
@@ -42,55 +42,55 @@ let resumeData = {
                             "  Denormalized the tables to reduce the unnecessary database call whichenhanced the load time by 15%"
            },
            {
-              "heading":"Login using Jetty form Authentication",
+              "heading":"Login using Jetty form Authentication: ",
               "description":" Login using jetty form authenticate wrapped over 2 steps authentication using key cloak and SAML which will be used by all the clients in the new product release"
            },
            {
-              "heading":"Sub-string calculation for rule " ,
+              "heading":"Sub-string calculation for rule: " ,
               "description":" Developed the feature to allow end user to getsub-string of the fields from the claim and compare with other field on the same claim or on two different lines of the same claim which in turn allow rule creation on minute level for all claim fields resulting in around 30% improvisation in claim analysis result display "
            },
            {
-            "heading":"Drop Flags from the claim " ,
+            "heading":"Drop Flags from the claim: " ,
             "description":" Developed a feature to allow dropping up of specified flag or flags from the claim result which in turn allowed clients to drop flags after certain criterion are met resulting in 80% increase in usability"
            },
            {
-            "heading":" Ability to modify default flag of system rule " ,
+            "heading":" Ability to modify default flag of system rule: " ,
             "description":"Developed the feature to allow  end user to modify the default flag of system rule (rules that are not editable) to any other flag of the system rule based on different jurisdiction(state) which in turn enhanced the claim analysis result display by 60% "
            },
            {
-            "heading":"Real Time Push Notification / Broadcasting " ,
+            "heading":"Real Time Push Notification / Broadcasting: " ,
             "description":" Developed the feature to allow  real time broadcasting of common resource changes to all the users in the same tenant and apply the updated changes in them resulting in hot reload of changes which in turn saved 2 minutes  of reload time. Awarded 1st position in hackathon."
            },
            {
-            "heading":"Centralized Logging - ELK stack" ,
+            "heading":"Centralized Logging - ELK stack: " ,
             "description":"Setting up the ELK components to enable the capability for centralized logging in clustered environment  using Logstash, Elastic search and Kibana which decreases the turnaround time for any developer or QA by 10 minutes to check the logs separately in 2 machines. "
            },
            {
-            "heading":"DDR Load Time Enhancement" ,
+            "heading":"DDR Load Time Enhancement: " ,
             "description":"Enhancement of the UI load time on application start-up using socket IO by sending the data  in chunks while the UI renders. Load time enhanced by 65%. Awarded 1st position in hackathon. "
            },
            {
-            "heading":"Same Provider Configuration" ,
+            "heading":"Same Provider Configuration: " ,
             "description":"Developed the feature to allow  the claim analyzer to recognize whether separate references to provider are actually referring to same provider , thus detecting false claiming of money which in turn saved payer 1 million in a span of 2 months. "
            },
            {
-            "heading":"Exceptions for Rule Analyzer" ,
+            "heading":"Exceptions for Rule Analyzer: " ,
             "description":"Exceptions allows addition/suppression of specific rules for claim analyzer. As a part of this functionality end user can create, share and copy exceptions to various child enterprise levels within a ruleset (collection of rules) or at system enterprise level to be used by all the clients. "
            },
            {
-            "heading":"Error Flag Customization" ,
+            "heading":"Error Flag Customization: " ,
             "description":"Developed the feature to allow  the error flag customizable by the end user which will give them the control over the response file enhancing the user experience "
            },
            {
-            "heading":"Mathematical Calculations for Rules " ,
+            "heading":"Mathematical Calculations for Rules: " ,
             "description":"Developed a POC to allow mathematical functions to be used in creating rules as. Real time validation of mathematical functions was provided as part of this feature which will be rolled out to all the clients in near future. "
            },
            {
-            "heading":"Disabling ILOG rule " ,
+            "heading":"Disabling ILOG rule: " ,
             "description":" Developed the feature to allow the end user to ignore selected rules from a ruleset (collection of rules) that is not required for the claim to be analyzed which in turn allowed end user to continue using the application thus accepted by 70 of the clients"
            },
            {
-            "heading":"DDR Workbook Generator" ,
+            "heading":"DDR Workbook Generator: " ,
             "description":"A report to the end user consisting of all the fields related to a particular flag generated after claim analysis "
            }
         ]
