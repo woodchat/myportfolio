@@ -11,7 +11,11 @@ let resumeData = {
           "className":"fa fa-linkedin"
         }
       ],
-    "aboutme":"I have been working in software industry for past three years. Currently i am working in Fintech industry. Previously, i have worked in health industry",
+    "aboutme":"A tech enthusiast with self-starter and collaborative attitude always looking for challenging problem statement."+
+             "A  passionate learner who isn't afraid of new tools and technologies to build a great end-to-end customer experience."
+             +"I like to read tech blogs and expand knowledge about designing scalable, fault toleratnt and reslilint system.  "
+             +"I am B.Tech graduate from computer science & engnieering. I have an experience of working in Health Industry and currently"+
+             "working in fintech industry. I have experience in Quick delivery of end-to-end solutions to validate ideas and produce quality products",
     "address":"Hyderabad, India",
     "emailId":"shubhendushishir628@gmail.com",
     "education":[
@@ -28,7 +32,18 @@ let resumeData = {
         "CompanyName":"Arcesium",
         "specialization":"Senior Software Engineer",
         "MonthOfLeaving":"April 2020 - Current",
-        "Projects":[]
+        "Projects":[
+          {
+            "heading": "Snowflake datawarehouse inculation in the project",
+            "Description": "Designed and implemented a poc to load the accounting data after processing to AWS s3 as an object which will periodically"
+            +"loaded using snowpipe. This will be further integrated with looker to generate reports by end user. Snowpipe loads 1GB of data in an around 15 sec for S size warehouse. "
+          
+          },
+          {
+            "heading": "Setting up checkers for sla/slo updates",
+            "Descrition": "Added batch script cron jobs for  clients of ours to update the business team about all accounting data has been persisted in DB or not before 15 mins of SLA."
+          }
+        ]
       },
       {
         "CompanyName":"Optum | UHG",
