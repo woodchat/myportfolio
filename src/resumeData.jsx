@@ -32,16 +32,16 @@ let resumeData = {
         "CompanyName":"Arcesium",
         "specialization":"Senior Software Engineer",
         "MonthOfLeaving":"April 2020 - Current",
-        "Projects":[
+        "projects":[
           {
-            "heading": "Snowflake datawarehouse inculation in the project",
-            "Description": "Designed and implemented a poc to load the accounting data after processing to AWS s3 as an object which will periodically"
-            +"loaded using snowpipe. This will be further integrated with looker to generate reports by end user. Snowpipe loads 1GB of data in an around 15 sec for S size warehouse. "
+            "heading":"Snowflake datawarehouse inculation in the project",
+            "description":"Designed and implemented a poc to load the accounting data after processing to AWS s3 as an object which will periodically"
+                         +"loaded using snowpipe. This will be further integrated with looker to generate reports by end user. Snowpipe loads 1GB of data in an around 15 sec for S size warehouse. "
           
           },
           {
-            "heading": "Setting up checkers for sla/slo updates",
-            "Descrition": "Added batch script cron jobs for  clients of ours to update the business team about all accounting data has been persisted in DB or not before 15 mins of SLA."
+            "heading":"Setting up checkers for sla/slo updates",
+            "description":"Added batch script cron jobs for  clients of ours to update the business team about all accounting data has been persisted in DB or not before 15 mins of SLA."
           }
         ]
       },
