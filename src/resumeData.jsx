@@ -11,7 +11,7 @@ let resumeData = {
           "className":"fa fa-linkedin"
         }
       ],
-    "aboutme":"A tech enthusiast with self-starter and collaborative attitude always looking for challenging problem statement."+
+    "aboutme":"A tech enthusiast with self-starter and collaborative  can-do attitude always looking for challenging problem statement."+
              "A  passionate learner who isn't afraid of new tools and technologies to build a great end-to-end customer experience."
              +"I like to read tech blogs and expand knowledge about designing scalable, fault toleratnt and reslilint system.  "
              +"I am B.Tech graduate from computer science & engnieering. I have an experience of working in health industry and currently"+
