@@ -14,8 +14,8 @@ let resumeData = {
     "aboutme":"A tech enthusiast with self-starter and collaborative attitude always looking for challenging problem statement."+
              "A  passionate learner who isn't afraid of new tools and technologies to build a great end-to-end customer experience."
              +"I like to read tech blogs and expand knowledge about designing scalable, fault toleratnt and reslilint system.  "
-             +"I am B.Tech graduate from computer science & engnieering. I have an experience of working in Health Industry and currently"+
-             "working in fintech industry. I have experience in Quick delivery of end-to-end solutions to validate ideas and produce quality products",
+             +"I am B.Tech graduate from computer science & engnieering. I have an experience of working in health industry and currently"+
+             " working in fintech industry. I have experience in quick delivery of end-to-end solutions to validate ideas and produce quality products",
     "address":"Hyderabad, India",
     "emailId":"shubhendushishir628@gmail.com",
     "education":[
