@@ -35,29 +35,29 @@ let resumeData = {
         "projects":[
           {
             "heading":"Multi Book pnl Launcher",
-            "description": "Design and implemented change log capturing mechanism for generating keys for triggering pnl runs automatically for any amendment in past accounting attributes asynchronously, processing"
-                           +"50000 changed attribute down to 30 mins from 2 hrs"          
-          }  
+            "description":"Design and implemented change log capturing mechanism for generating keys for triggering pnl runs automatically for any amendment in past accounting attributes asynchronously, processing "
+                           +" 50000 changed attribute down to 30 mins from 2 hrs. "          
+          },  
           {
             "heading":"Multi Book pnl Launcher",
             "description":"Implemented support to launch pnl for multiple books asynchronously thus reducing the overall response time down to 10 seconds from 15 minutes). "          
-          }  
+          }, 
           {
             "heading":"Accrued Interest RESTful Service",
             "description":"Implemented an API to be used by end user for calculating the AI for bonds (i.e profit accrued for bonds on any date). "
           
-          }  
+          },  
           {
             "heading":"Business Entry Report Service",
             "description":"Designed and implemented the report service for all the transactions posted to the accounting engine. This service generates report as a file or can be consumed as an array Table."
                          +" Response time of API on an average noted was 12 seconds for 1 million records. "
           
-          }            
+          },           
           {
             "heading":"Checkers for SLA/SLO",
             "description":"Setup checkers to be triggered as a cron job to send update on slack for each end of day accounting run to be aware that the 99.99% sla commitment don't get missed. "
           
-          }
+          },
           {
             "heading":"Snowflake integration",
             "description":"Designed and implemented a poc to load the accounting data after processing to AWS s3 as an object which will periodically"
