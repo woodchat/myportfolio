@@ -13,9 +13,9 @@ let resumeData = {
       ],
     "aboutme":"A tech enthusiast with self-starter and collaborative  can-do attitude always looking for challenging problem statement."+
              "A  passionate learner who isn't afraid of new tools and technologies to build a great end-to-end customer experience."
-             +"I like to read tech blogs and expand knowledge about designing scalable, fault toleratnt and reslilint system.  "
-             +"I am B.Tech graduate from computer science & engnieering. I have an experience of working in health industry and currently"+
-             " working in fintech industry. I have experience in quick delivery of end-to-end solutions to validate ideas and produce quality products",
+             +"I like to read tech blogs and expand knowledge about designing scalable, fault toleratnt and reslilint distributed system.  "
+             +"I am B.Tech graduate from computer science & engnieering. I have an experience of working in health & fintech industry and currently"+
+             " working in logistic and riding domain in payment integration team. I have experience in quick delivery of end-to-end solutions to validate ideas and produce quality products",
     "address":"Hyderabad, India",
     "emailId":"shubhendushishir628@gmail.com",
     "education":[
@@ -34,7 +34,7 @@ let resumeData = {
         "MonthOfLeaving":"April 2020 - Current",
         "projects":[
           {
-            "heading":"Multi Book pnl Launcher",
+            "heading":"TDP",
             "description":"Design and implemented change log capturing mechanism for generating keys for triggering pnl runs automatically for any amendment in past accounting attributes asynchronously, processing "
                            +" 50000 changed attribute down to 30 mins from 2 hrs. "          
           },  
