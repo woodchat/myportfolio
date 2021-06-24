@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://techonoeticsclub.github.io/",
     "name": "Shubhendu Shishir",
-    "role": "Senior Software Engineer @ Arcesium",
+    "role": "Software Engineer II @ Uber",
     "linkedinId":"Your LinkedIn Id",
     "roleDescription": "",
     "socialLinks":[
@@ -34,14 +34,39 @@ let resumeData = {
         "MonthOfLeaving":"April 2020 - Current",
         "projects":[
           {
-            "heading":"Snowflake datawarehouse inculation in the project",
+            "heading":"Multi Book pnl Launcher",
+            "description": "Design and implemented change log capturing mechanism for generating keys for triggering pnl runs automatically for any amendment in past accounting attributes asynchronously, processing"
+                           +"50000 changed attribute down to 30 mins from 2 hrs"          
+          }  
+          {
+            "heading":"Multi Book pnl Launcher",
+            "description":"Implemented support to launch pnl for multiple books asynchronously thus reducing the overall response time down to 10 seconds from 15 minutes). "          
+          }  
+          {
+            "heading":"Accrued Interest RESTful Service",
+            "description":"Implemented an API to be used by end user for calculating the AI for bonds (i.e profit accrued for bonds on any date). "
+          
+          }  
+          {
+            "heading":"Business Entry Report Service",
+            "description":"Designed and implemented the report service for all the transactions posted to the accounting engine. This service generates report as a file or can be consumed as an array Table."
+                         +" Response time of API on an average noted was 12 seconds for 1 million records. "
+          
+          }            
+          {
+            "heading":"Checkers for SLA/SLO",
+            "description":"Setup checkers to be triggered as a cron job to send update on slack for each end of day accounting run to be aware that the 99.99% sla commitment don't get missed. "
+          
+          }
+          {
+            "heading":"Snowflake integration",
             "description":"Designed and implemented a poc to load the accounting data after processing to AWS s3 as an object which will periodically"
                          +"loaded using snowpipe. This will be further integrated with looker to generate reports by end user. Snowpipe loads 1GB of data in an around 15 sec for S size warehouse. "
           
           },
           {
-            "heading":"Setting up checkers for sla/slo updates",
-            "description":"Added batch script cron jobs for  clients of ours to update the business team about all accounting data has been persisted in DB or not before 15 mins of SLA."
+            "heading":"SQL batch processing utility",
+            "description":"Implemented a utility to avoid filling up database transaction log by pausing between each batch for the transaction log usage to fall below specified percentage. "
           }
         ]
       },
@@ -120,7 +145,7 @@ let resumeData = {
       },
       {
         "skillname": "Industry Knowledge: ",
-        "skillContent":"Software Design, Object-Oriented Programming, Design patterns, Web Services, Agile Methodologies"
+        "skillContent":"Software Design, Distributed systems, Object-Oriented Programming, Design patterns, Web Services, Agile Methodologies"
       },
       {
         "skillname":"Tools & Technologies: ",
